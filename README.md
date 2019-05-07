@@ -3,12 +3,12 @@
     <h3> Ryan Warren, Luke Smiley, Marcela Gomez
       
      
-Angry Dragon <h1>
+<h1> Angry Dragon 
 
-Simulation 2020 <h3>
+<h3> Simulation 2020 
   
   
- ![Image of Dragons](/images/Bad News Dargons.jpg)
+![image info] (./Bad News Dargons.jpg)
  
   
   
