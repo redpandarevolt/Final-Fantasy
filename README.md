@@ -8,7 +8,7 @@
 <h3> Simulation 2020 
   
   
-![image info] (https://github.com/redpandarevolt/Final-Fantasy/blob/master/Bad%20News%20Dargons.jpg)
+
  
   
   
