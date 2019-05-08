@@ -3,12 +3,13 @@
     <h3> Ryan Warren, Luke Smiley, Marcela Gomez
       
      
-##_Angry Dragon_
-#Simulation 2020 <h3>
+<h1> Angry Dragon 
+
+<h3> Simulation 2020 
   
   
- ![Image of Dragons]
- (
+![image info] (https://github.com/redpandarevolt/Final-Fantasy/blob/master/Bad%20News%20Dargons.jpg)
+ 
   
   
      
