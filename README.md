@@ -10,7 +10,7 @@
   <h3> Devlopment Log
   
   
-[Development Log Link](https://docs.google.com/document/d/1BBU_vta-jE1x8wZG8VNCOXcdj_D2UODHf-yCI7Yx0XQ/edit)
+<https://docs.google.com/document/d/1BBU_vta-jE1x8wZG8VNCOXcdj_D2UODHf-yCI7Yx0XQ/edit>
   
   
 
