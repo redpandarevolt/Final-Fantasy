@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Alike+Angular|Josefin+Sans|Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+@font-face {
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Alike+Angular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{
+  box-sizing: border-box;
+  font-family: Raleway;
+  color: #777;
+}
+
+
+html, body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav ul{
+  margin: 0;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav a{
+  display: inline-block;
+  padding: .5em;
+  color: #f4c842;
+  text-decoration: none;
+}
+
+.main-nav{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255,255,255, .3)
+}
+
+.main-nav li{
+  padding: 0 1.75%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+  background-color: rgba(0,0,0, .6);
+  background-image: url("Images/sideflame.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: 'Alike Angular', serif;
+  font-weight;
+  color: #f4c842;
+}
+
+.band-name-large {
+  font-size: 7em;
+}
+
+.content-section{
+  margin: 1em;
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.dragon-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 25%;
+}
+
+.main-footer {
+  background-color: #56CCF2;
+  color: white;
+  padding: .25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li{
+  padding: 0 .5em;
+}
+
+.footer-nave img {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 2em;
+  cursor: pointer;
+  margin: .5em 15% 2em 15%;
+  color: Black;
+  border: 2px solid #f4c842;
+  background-color: rgba(255,255,255, .1);
+  font-size: 1.25em;
+  font-weight: lighter;
+}
+
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: #f4c842;
+  font-size: 4em;
+  padding: 0;
+}
+
+.dev-row{
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}

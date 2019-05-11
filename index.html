@@ -4,10 +4,11 @@
   <head>
     <title> Angry Dragon</title>
     <meta name= "description" content = "this is the description">
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <header>
-        <nav>
+    <header class="main-header">
+        <nav class="nav main-nav">
           <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="Game.html">GAME</a></li>
@@ -18,19 +19,20 @@
           </ul>
         <nav>
         <hr>
-        <h1> Angry Dragon</h1>
-        <h2>Simulation 2020</h2>
-        <br>
-        <br>
-        <!-- To Do: Enter Background Image For Header-->
-    </header>
-    <section>
-      <h2> Game Trailer </h2>
+        <h1 class="band-name band-name-large"> Angry Dragon</h1>
+        <h2 class="band-name" >Simulation 2020</h2>
+      </header>
+
+    <section class="content-section container">
+      <h2 class= "section-header"> Game Trailer </h2>
+      <p><h2>Long ago, man cam across a dragons fortune.  Since then,
+      it's been distributed throughout the land.  Now is the time
+    for it to be reclaimed by its rightful owners......The Dragons.</h2></p>
       <div>
         <div>
             <img src = "Images/TealLogo.png">
-            <div>
-              <button role="button">Play Trailer</button>
+            <div class="container">
+              <button class="btn btn-play" role="button">Watch Trailer</button>
             </div>
         </div>
       </div>
@@ -40,7 +42,7 @@
           <div>
             <h2><strong>Screen Shot 1</strong></h2>
           <div>
-              <img src = "Images/Bad News Dargons.jpg" width= "600">
+              <img class="dragon-image" src = "Images/Bad News Dargons.jpg" width= "600">
           </div>
       </div>
       <br>
@@ -49,7 +51,7 @@
           <div>
             <h2><strong>Screen Shot 2</strong></h2>
           <div>
-              <img src = "Images/GreenLogo.png">
+              <img class="dragon-image" src = "Images/GreenLogo.png" width="1000">
           </div>
       </div>
       <br>
@@ -58,7 +60,7 @@
           <div>
             <h2><strong>Screen Shot 3</strong></h2>
           <div>
-              <img src = "Images/FireDragon 9.09.49 PM.jpg" width= "600">
+              <img class="dragon-image" src = "Images/FireDragon 9.09.49 PM.jpg" width= "600">
           </div>
       </div>
       <br>
@@ -68,13 +70,14 @@
       <p>Here is another paragraph of stuff.
 
         </p>
-        <img src= "Images/FaceForward Dragon.jpg" width= "600">
+        <img class="dragon-image" src= "Images/FaceForward Dragon.jpg" width= "600">
         <p>GAME TRAILER GOES HERE.
       </p>
     </section>
-    <footer>
-        <h1> Source Code </h1>
-          <ul>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h1 class="band-name"> Source Code </h1>
+          <ul class="nav footer-nav">
             <li>
               <a href="https://github.com/redpandarevolt/Final-Fantasy" target="_blank">
                 <img src="Images/githubIconSmaller.jpg" width= "50">
