@@ -76,7 +76,7 @@ html, body{
 
 .content-section{
   margin: 1em;
-
+}
 
 .container {
   max-width: 900px;
@@ -94,10 +94,10 @@ html, body{
 
 .dragon-image {
   float: left;
-  height: 200px;
-  width: 200px;
-  margin: 15px;
-  border-radius: 25%;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 50;
 }
 
 .main-footer {
@@ -143,12 +143,54 @@ html, body{
   display: block;
   margin: 0 auto;
   color: #f4c842;
-  font-size: 4em;
+  font-size: 2em;
   padding: 0;
 }
 
-.dev-row{
+.dev-row {
   border-bottom: 1px solid black;
   padding-bottom: 1em;
   margin-bottom: 1em;
+}
+
+.dev-row:last-child {
+  border-bottom: none;
+}
+
+.dev-item {
+  display: inline-block;
+  padding-right: .5em;
+}
+
+
+.dev-ID{
+  color: #555;
+  font-weight: bold;
+  width: 8%;
+}
+
+.dev-task{
+  color: #555;
+  font-weight: bold;
+  width: 30%;
+
+}
+.dev-person{
+  color: #555;
+  width: 11%;
+}
+.dev-status{
+  color: #555;
+  width: 12%;
+}
+.dev-start {
+  color: #555;
+  font-weight: bold;
+  width:11%;
+
+}
+.dev-end{
+  color: #555;
+  font-weight: bold;
+  width:11%;
 }
