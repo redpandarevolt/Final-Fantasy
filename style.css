@@ -79,6 +79,9 @@ html, body{
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1.5em;
+
+  background-image: url("flames3.jpg")  no-repeat fixed center center !important;
+  background-size: cover !important;
 }
 
 .section-header {
@@ -196,7 +199,7 @@ html, body{
 }
 
 .screen-shot{
-  margin: 15px;
+  margin: 5px;
 }
 
 .Screen-Shot-Title{
@@ -206,11 +209,11 @@ html, body{
   font-weight: bold;
   font-size: 1.5em;
   color: #333;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .screenShotImage{
-    height: 250px;
+    height: 280px;
 }
 
 .screen-shot-box{
