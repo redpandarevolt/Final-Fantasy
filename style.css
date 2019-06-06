@@ -9,18 +9,15 @@
   font-style: normal;
 }
 
-
 *{
   box-sizing: border-box;
   font-family: Raleway;
   color: #777;
 }
 
-
 html, body{
   margin: 0;
   padding: 0;
-
 }
 
 .nav ul{
@@ -31,18 +28,18 @@ html, body{
   display: inline;
 }
 
-.nav a{
+.nav a {
   display: inline-block;
   padding: .5em;
   color: #f4c842;
   text-decoration: none;
 }
 
-.main-nav{
+.main-nav {
   text-align: center;
   font-size: 1.3em;
   font-weight: lighter;
-  border-bottom: 1px solid rgba(255,255,255, .3)
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .main-nav li{
@@ -50,28 +47,28 @@ html, body{
 }
 
 .nav a:hover {
-  background-color: rgba(255, 255, 255, .3)
+  background-color: rgba(255, 255, 255, .3);
 }
 
 .main-header {
-  background-color: rgba(0,0,0, .6);
+  background-color: rgba(0, 0, 0, .6);
   background-image: url("Images/sideflame.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   padding-bottom: 30px;
 }
 
-.band-name {
+.game-name {
   text-align: center;
   margin: 0;
   font-size: 4em;
-  font-family: 'Alike Angular', serif;
-  font-weight;
+  font-family: 'Alike+Angular', serif;
+  font-weight: normal;
   color: #f4c842;
 }
 
-.band-name-large {
-  font-size: 7em;
+.game-name-large {
+  font-size: 9em;
 }
 
 .content-section{
@@ -85,19 +82,19 @@ html, body{
 }
 
 .section-header {
-  font-family: "Metal Mania";
+  font-family: 'Nunito Sans';
   font-weight: normal;
   color: #333;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 
 .dragon-image {
   float: left;
   height: 300px;
   width: 300px;
-  margin: 10px;
-  border-radius: 50;
+  margin: 15px;
+  border-radius: 50%;
 }
 
 .main-footer {
@@ -109,7 +106,6 @@ html, body{
 .main-footer-container {
   display: flex;
   align-items: center;
-
 }
 
 .main-footer-container ul {
@@ -121,36 +117,40 @@ html, body{
   padding: 0 .5em;
 }
 
-.footer-nave img {
-  width: 30px;
-  height: 30px;
+.footer-nav img {
+  width: 50px;
+  height: 50px;
 }
 
 .btn {
   text-align: center;
   vertical-align: middle;
-  padding: 2em;
+  padding: .67em;
   cursor: pointer;
-  margin: .5em 15% 2em 15%;
-  color: Black;
-  border: 2px solid #f4c842;
-  background-color: rgba(255,255,255, .1);
-  font-size: 1.25em;
-  font-weight: lighter;
 }
 
 .btn-play {
   display: block;
   margin: 0 auto;
+  margin: .5em 15% 2em 15%;
   color: #f4c842;
-  font-size: 2em;
-  padding: 0;
+  border: 2px solid #f4c842;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: .3em;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-play:hover{
+  background-color: rgba(0, 0, 0, .6);
 }
 
 .dev-row {
   border-bottom: 1px solid black;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .dev-row:last-child {
@@ -159,7 +159,7 @@ html, body{
 
 .dev-item {
   display: inline-block;
-  padding-right: .5em;
+  padding-right: 1em;
 }
 
 
@@ -186,11 +186,35 @@ html, body{
 .dev-start {
   color: #555;
   font-weight: bold;
-  width:11%;
+  width:15%;
 
 }
 .dev-end{
   color: #555;
   font-weight: bold;
   width:11%;
+}
+
+.screen-shot{
+  margin: 15px;
+}
+
+.Screen-Shot-Title{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.screenShotImage{
+    height: 250px;
+}
+
+.screen-shot-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
