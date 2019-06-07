@@ -81,7 +81,7 @@ html, body{
   padding: 0 1.5em;
 
   background-image: url("flames3.jpg")  no-repeat fixed center center !important;
-  background-size: cover !important;
+  background-size: cover ;
 }
 
 .section-header {
