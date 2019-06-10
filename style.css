@@ -198,6 +198,24 @@ html, body{
   width:11%;
 }
 
+>.ref-Type{
+  color: #555;
+  font-weight: bold;
+  width:40%;
+}
+
+.ref-Asset{
+  color: #555;
+  font-weight: bold;
+  width:20%;
+}
+
+.ref-Link{
+  color: #0000ff;
+  font-weight: bold;
+  width:60%;
+}
+
 .screen-shot{
   margin: 5px;
 }
